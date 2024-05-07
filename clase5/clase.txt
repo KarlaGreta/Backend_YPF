@@ -1,0 +1,30 @@
+npm permite instalar para desarrollo o global
+carpeta node_modules =no subirla 
+package.json = describe las caracteristicas texnicas de la aplicacion y de sus depencias
+NPM XPRESS 
+    simplifica el codigo , mas facil de leer y escribir
+    manejo de rutas , gestion de peteciones y respuestas http, integracion de base de datos,
+    middleware para validad datos,autenticacion y seguridad, etc
+    middleware = capa de seguridad
+    
+NODEMON = libreria, permite automatizar, asi no cierras y abres en cada cambio de codigo
+    npm 
+ALTERNATIVAS DE NPM 
+    yarn = centralizado a mejorar la velocidad y estabilidad e las descargas e instalaciones
+    pnpm= centrado en mejorar la eficiencia delalmacenamiento en la cache y la reultilizacin de las depencias
+    rush = centrado en la gestion de proyectos monorepos
+
+
+#nuestra primer aplicacion con express
+generamos un servidor con node.js | express | NODEMON
+
+    express : npm i express || npm install express
+    nodemon : npm i --save-dev nodemon || npm itall --save-dev nodemon
+
+como correr nuestro proyecto ver en package.json que scripts existen para ejecutr:
+    "scripts": {
+    "start":"node --wach server.js",
+    "dev":"nodemon server.js",
+  },
+  levantamos npm start || npm dev
+

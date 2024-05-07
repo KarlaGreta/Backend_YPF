@@ -1,0 +1,8 @@
+#Primer proyecto con Node.js con HTTP
+
+1.Crear carpeta del proyecto
+2.Inicar proyecto con 
+    npm init -y  <-   -y: todo por default 
+
+
+
